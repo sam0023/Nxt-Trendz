@@ -1,0 +1,37 @@
+/* Write your CSS here */
+.checkout-btn {
+  background-color: #0b69ff;
+  border: none;
+  color: #ffffff;
+  border-radius: 5px;
+  padding: 5px;
+  width: 100%;
+  margin-top: 5px;
+  cursor: pointer;
+}
+.summary-bg {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.summary-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  border-radius: 5px;
+}
+.summary-total {
+  color: #616e7c;
+  font-weight: 600;
+}
+.total-orders {
+  color: #616e7c;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 400;
+}
+.summary-p {
+  margin-bottom: 0px;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+}
