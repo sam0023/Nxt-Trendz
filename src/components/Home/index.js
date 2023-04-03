@@ -5,7 +5,7 @@ import './index.css'
 
 const Home = () => (
   <>
-    <Header />
+    <Header activeSection="HOME" />
     <div className="home-container">
       <div className="home-content">
         <h1 className="home-heading">Clothes That Get YOU Noticed</h1>

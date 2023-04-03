@@ -9,6 +9,12 @@
   margin: auto;
 }
 
+.user-details {
+  font-family: 'Roboto';
+  margin: 0px;
+  align-self: flex-start;
+}
+
 @media screen and (min-width: 992px) {
   .login-form-container {
     flex-direction: row;

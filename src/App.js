@@ -85,12 +85,13 @@ class App extends Component {
   }
 
   render() {
-    const {cartList} = this.state
+    const {cartList, activeSection} = this.state
 
     return (
       <CartContext.Provider
         value={{
           cartList,
+
           addCartItem: this.addCartItem,
           removeCartItem: this.removeCartItem,
           incrementCartItemQuantity: this.incrementCartItemQuantity,

@@ -17,7 +17,7 @@ const Cart = () => (
       }
       return (
         <>
-          <Header />
+          <Header activeSection="CART" />
           <div className="cart-container">
             {showEmptyView ? (
               <EmptyCartView />

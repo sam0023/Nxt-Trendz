@@ -4,6 +4,14 @@
   border-bottom: 1px solid rgb(243, 243, 243);
 }
 
+.active-section {
+  color: #0b69ff;
+}
+
+.non-active-section {
+  color: #616e7c;
+}
+
 @media screen and (max-width: 767px) {
   .nav-header {
     flex-direction: column;
@@ -114,7 +122,6 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: #475569;
 }
 
 .nav-menu-item-mobile {
@@ -157,7 +164,8 @@
 }
 
 .nav-bar-img {
-  width: 24px;
+  width: 28px;
+  height: 28px;
 }
 
 .cart-count-badge {
